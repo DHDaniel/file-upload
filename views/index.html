@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>Upload your file</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8" />
+</head>
+
+<body>
+
+  <!-- Must be set to accept file uploads -->
+  <form action="/upload" method="POST" enctype="multipart/form-data">
+    <label for="upload_file">Upload your file to get its size</label><br />
+    <input type="file" name="upload_file" />
+    <button type="submit">Submit</button>
+  </form>
+  
+</body>
+</html>
